@@ -2,7 +2,7 @@
 START=50                
 
 start() {
-   /usr/sbin/dnscrypt-proxy --daemonize --logfile=/log --local-address='127.0.0.1:5353' --user=nobody --resolvers-list='/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv' --resolver-name='dnscrypt.eu-dk
+   /usr/sbin/dnscrypt-proxy --daemonize --logfile=/log --local-address='127.0.0.1:5353' --user=nobody --resolvers-list='/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv' --resolver-name='dnscrypt.eu-dk'
 }                                                 
  
 stop() {
